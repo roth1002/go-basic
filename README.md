@@ -25,4 +25,8 @@ Example:
 go build -o ./bin/hello hello.go
 ```
 
+The Next Step
+
+http://www.golang-book.com/books/intro/14
+
 
