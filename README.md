@@ -29,4 +29,6 @@ The Next Step
 
 http://www.golang-book.com/books/intro/14
 
+#The Go Code Review Comments
 
+https://github.com/golang/go/wiki/CodeReviewComments
