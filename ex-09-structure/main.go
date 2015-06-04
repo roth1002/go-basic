@@ -64,7 +64,7 @@ func main() {
 	//use interface
 	fmt.Println(totalArea(&c, &r))
 	//g := MultiShape
-	animals := []Animal{Dog{}, Cat{}, Llama{}, JavaProgrammer{}}
+	animals := []Animal{new(Dog), new(Cat), Llama{}, JavaProgrammer{}}
 	for _, animal := range animals {
 		fmt.Println(animal.Speak())
 	}
@@ -120,7 +120,7 @@ func (d Dog) Speak() string {
 type Cat struct {
 }
 
-func (c Cat) Speak() string {
+func (c *Cat) Speak() string {
 	return "Meow!"
 }
 
