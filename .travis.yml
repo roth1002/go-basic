@@ -2,3 +2,6 @@ language: go
 
 script:
   - go run build.go ./
+
+before_install:
+  - echo "math" > ~/.netrc
