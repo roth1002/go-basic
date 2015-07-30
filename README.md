@@ -1,3 +1,5 @@
+[![Build Status][travis-image]][travis-url]
+
 # go-basic
 自學Go
 
@@ -32,3 +34,6 @@ http://www.golang-book.com/books/intro/14
 #The Go Code Review Comments
 
 https://github.com/golang/go/wiki/CodeReviewComments
+
+[travis-image]: https://travis-ci.org/roth1002/go-basic.svg?branch=master
+[travis-url]: https://travis-ci.org/roth1002/go-basic
