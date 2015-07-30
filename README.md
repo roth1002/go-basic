@@ -1,4 +1,4 @@
-# startLearnGolang
+# go-basic
 自學Go
 
 Run
