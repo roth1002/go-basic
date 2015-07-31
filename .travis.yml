@@ -1,7 +1,7 @@
 language: go
 
 script:
-  - go run build.go ./
+  - make build
 
 install:
-  - sh ./goinstall
+  - make vender
