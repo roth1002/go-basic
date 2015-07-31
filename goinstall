@@ -1,5 +1,7 @@
 #!/bin/bash
-source goenv
+go get github.com/stretchr/testify
+go get gopkg.in/mgo.v2
+go get gopkg.in/bufio.v1
 go get github.com/lib/pq
 go get github.com/mattn/go-sqlite3
 # dependencies for Gen

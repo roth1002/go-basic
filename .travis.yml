@@ -3,6 +3,5 @@ language: go
 script:
   - go run build.go ./
 
-before_install:
-  - echo "github.com/roth1002/go-basic/ex-11-package/math" > ~/.netrc
-  - echo "github.com/roth1002/go-basic/ex-12-testing/math" > ~/.netrc
+install:
+  - sh ./goinstall
