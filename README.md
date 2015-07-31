@@ -1,30 +1,23 @@
 [![Build Status][travis-image]][travis-url]
 
 # go-basic
-自學Go
 
-Run
-
-```
-go run XXXXX.go
-```
-
-Example:
+Build and Install Dependency
 
 ```
-cd ex-01-hello-world; go run hello.go
+make
 ```
 
-Build Binary
+Then you can run binary as
 
 ```
-go build -o $dstDir/$execName XXXXX.go
+./ex-01-hello-world/hello
 ```
 
-Example:
+or run direct by
 
 ```
-go build -o ./bin/hello hello.go
+go run ./ex-01-hello-world/hello.go
 ```
 
 The Next Step
