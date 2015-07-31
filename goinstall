@@ -1,9 +1,18 @@
 #!/bin/bash
+echo "go get github.com/stretchr/testify"
 go get github.com/stretchr/testify
+echo "go get gopkg.in/mgo.v2"
 go get gopkg.in/mgo.v2
+echo "go get gopkg.in/bufio.v1"
 go get gopkg.in/bufio.v1
+echo "go get gopkg.in/redis.v3"
 go get gopkg.in/redis.v3
+echo "go get golang.org/x/tour/tree"
 go get golang.org/x/tour/tree
+echo "go get github.com/go-sql-driver/mysql"
+go get github.com/go-sql-driver/mysql
+echo "go get github.com/lib/pq"
 go get github.com/lib/pq
+echo "go get github.com/mattn/go-sqlite3"
 go get github.com/mattn/go-sqlite3
 # dependencies for Gen
