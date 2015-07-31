@@ -2,6 +2,8 @@
 go get github.com/stretchr/testify
 go get gopkg.in/mgo.v2
 go get gopkg.in/bufio.v1
+go get gopkg.in/redis.v3
+go get golang.org/x/tour/tree
 go get github.com/lib/pq
 go get github.com/mattn/go-sqlite3
 # dependencies for Gen
