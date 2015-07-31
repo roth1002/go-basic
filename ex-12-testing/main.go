@@ -1,8 +1,8 @@
 package main
 
 import (
+	"./math"
 	"fmt"
-	"github.com/roth1002/go-basic/ex-12-testing/math"
 )
 
 func main() {
