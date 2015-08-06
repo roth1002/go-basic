@@ -15,7 +15,7 @@ func visit(path string, f os.FileInfo, err error) error {
 	match := re.MatchString(path)
 	if match {
 		tmp := strings.Split(path, ".")
-		cmd := exec.Command("go", "build", "-tags", "local", "-o", "./"+tmp[len(tmp)-2], "./"+path)
+		cmd := exec.Command("go", "build", "-o", "./"+tmp[len(tmp)-2], "./"+path)
 		fmt.Println(cmd)
 		out, err := cmd.Output()
 
