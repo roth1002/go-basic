@@ -2,8 +2,8 @@ package main
 
 import (
 	"bufio"
-	"code.google.com/p/go.net/websocket"
 	"fmt"
+	"golang.org/x/net/websocket"
 	"io"
 	"os"
 )
@@ -32,7 +32,7 @@ func main() {
 	fmt.Printf("Welcome chatroom!")
 
 	origin := "http://127.0.0.1:5000/"
-	url := "ws://127.0.0.1:6611/chatroom"
+	url := "ws://127.0.0.1:5000/chatroom"
 
 	ws, err := websocket.Dial(url, "", origin)
 	if err != nil {

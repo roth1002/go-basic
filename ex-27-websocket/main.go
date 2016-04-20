@@ -2,9 +2,9 @@ package main
 
 import (
 	"bufio"
-	"code.google.com/p/go.net/websocket"
 	"container/list"
 	"fmt"
+	"golang.org/x/net/websocket"
 	"io"
 	"net/http"
 )
