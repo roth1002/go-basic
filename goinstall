@@ -5,8 +5,8 @@ echo "go get gopkg.in/mgo.v2"
 go get gopkg.in/mgo.v2
 echo "go get gopkg.in/bufio.v1"
 go get gopkg.in/bufio.v1
-echo "go get gopkg.in/redis.v3"
-go get gopkg.in/redis.v3
+echo "go get gopkg.in/redis.v4"
+go get gopkg.in/redis.v4
 echo "go get golang.org/x/tour/tree"
 go get golang.org/x/tour/tree
 echo "go get github.com/go-sql-driver/mysql"

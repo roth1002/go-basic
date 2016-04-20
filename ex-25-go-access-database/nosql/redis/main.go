@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gopkg.in/redis.v3"
+	"gopkg.in/redis.v4"
 )
 
 func main() {
