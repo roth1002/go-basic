@@ -17,4 +17,6 @@ echo "go get github.com/mattn/go-sqlite3"
 go get github.com/mattn/go-sqlite3
 echo "go get golang.org/x/net/websocket"
 go get golang.org/x/net/websocket
+echo "go get github.com/labstack/echo/..."
+go get github.com/labstack/echo/...
 # dependencies for Gen
