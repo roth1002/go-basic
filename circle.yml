@@ -8,8 +8,3 @@ dependencies:
 test:
   override:
     - go test -v ./ex-12-testing/math/
-
-notify:
-  webhooks:
-    # A list of hook hashes, containing the URL field
-    - url: https://hooks.slack.com/services/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
