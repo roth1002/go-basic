@@ -1,4 +1,10 @@
-notify:
-  webhooks:
-    # A list of hook hashes, containing the URL field
-    - url: https://github.com/roth1002/go-basic
+dependencies:
+  pre:
+    - make vender
+
+  override:
+    - make build
+
+test:
+  override:
+    - go test -v ./ex-12-testing/math/
