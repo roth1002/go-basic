@@ -8,4 +8,4 @@ dependencies:
 notify:
   webhooks:
     # A list of hook hashes, containing the URL field
-    - url: https://github.com/qeek-dev/oceanktv_web_client
+    - url: https://github.com/roth1002/go-basic
