@@ -5,6 +5,10 @@ dependencies:
   override:
     - make build
 
+test:
+  override:
+    - go test -v ./ex-12-testing/math/
+
 notify:
   webhooks:
     # A list of hook hashes, containing the URL field
