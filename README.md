@@ -1,4 +1,4 @@
-[![Build Status][travis-image]][travis-url]
+[![Build Status][travis-image]][travis-url] [![CircleCI](https://circleci.com/gh/roth1002/go-basic/tree/master.svg?style=svg)](https://circleci.com/gh/roth1002/go-basic/tree/master)
 
 # go-basic
 
