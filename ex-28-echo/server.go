@@ -19,7 +19,7 @@ func main() {
 func save(c echo.Context) error {
 	// Get name and email
 	name := c.FormValue("name")
-	email := c.FormValue()["email"]
+	email := c.FormValue("email")
 	fmt.Print(name, email)
 	return c.HTML(http.StatusOK, "<b>Thank you!</b>")
 }
